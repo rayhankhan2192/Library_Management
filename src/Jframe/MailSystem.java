@@ -16,7 +16,7 @@ public class MailSystem {
         properties.put("mail.smtp.port", "587");
 
         String myGmailAc = "rrayhankhan4@gmail.com";
-        String password = "spbwchcaaqfnctur";
+        String password = "";
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
